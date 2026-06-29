@@ -24,7 +24,7 @@ export default function HojePage() {
   }
 
   return (
-    <AppShell>
+    <AppShell showLogout>
       {/* Header */}
       <div className="pt-12 pb-6 safe-top">
         <p className="text-slate-500 text-sm">{greeting()}{state.userName ? `, ${state.userName}` : ''}</p>
